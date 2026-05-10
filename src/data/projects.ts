@@ -19,6 +19,21 @@ export interface Project {
 	showImage?: boolean;
 }
 export const projectsData: Project[] = [
+
+	{
+		id: 'mastermind-solid',
+		title: 'Mastermind Solid',
+		description: 'A mastermind game.',
+		image: '',
+		category: 'other',
+		techStack: ['SolidStart', 'SolidUI'],
+		status: 'completed',
+		sourceCode: 'https://github.com/kino14910/mastermind-solid',
+		visitUrl: 'https://mastermind-solid.vercel.app/',
+		startDate: '2026-04-06',
+		featured: true,
+		tags: ['Game'],
+	},
 	{
 		id: 'kinomotion',
 		title: 'Kino Motion',
@@ -26,7 +41,7 @@ export const projectsData: Project[] = [
 		image: '',
 		category: 'web',
 		techStack: ['Astro', 'Svelte', 'TypeScript'],
-		status: 'in-progress',
+		status: 'completed',
 		sourceCode: 'https://github.com/kino14910/kinomotion',
 		visitUrl: 'https://kinomotion.vercel.app/',
 		startDate: '2026-03-01',
